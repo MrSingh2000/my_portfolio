@@ -1,0 +1,10 @@
+// this is for the snapping effect when the scroll is stuck between any 2 contents and not entirely one
+html {
+	scroll-snap-type: y mandatory;
+	scroll-behavior: smooth;
+}
+
+section {
+	scroll-snap-align: start;
+	scroll-snap-stop: always;
+}
